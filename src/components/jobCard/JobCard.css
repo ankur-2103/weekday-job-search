@@ -1,0 +1,132 @@
+.MuiCard-root {
+  /* padding: 20px; */
+  min-width: 400px;
+  max-width: 400px;
+  border-radius: 20px !important;
+  box-shadow: 0px 0px 5px 2px rgba(209, 209, 209, 0.4);
+}
+
+.MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.MuiChip-outlined {
+  width: fit-content;
+  box-shadow: 0px 2px 1px 0px rgba(209, 209, 209, 1);
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.company-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.company-name {
+  color: rgb(148, 145, 145);
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.salary {
+  color: rgb(108, 107, 107);
+  font-weight: 600;
+}
+
+.about-container {
+    position: relative;
+}
+
+.company-desc {
+  margin: 0;
+  margin-top: 10px;
+  max-height: 160px;
+  overflow: hidden;
+  position: relative;
+}
+
+.company-desc:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0) 10%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.company-desc-view-more{
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.exp-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-title{
+    font-weight: 600;
+    margin: 0;
+    color: rgb(108, 107, 107);
+}
+
+.exp-val{
+    font-weight: 400;
+    margin: 0;
+    color: rgb(108, 107, 107);
+}
+
+.btn-apply{
+    background-color: rgb(85, 239, 196) !important;
+    color: black !important;
+    text-transform: none !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+}
+
+.btn-refer{
+    display: flex !important;
+    gap: 5px !important;
+    background-color: #1a73e8 !important;
+    color: white !important;
+    text-transform: none !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+}
+
+@media only screen and (max-width: 770px) {
+  .MuiCard-root {
+    min-width: 95%;
+    max-width: 95%;
+  }
+}
+
+h4 {
+  font-weight: normal;
+  margin: 0;
+}
+
+h5 {
+  font-weight: normal;
+  margin: 0;
+}

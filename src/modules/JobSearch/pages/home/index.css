@@ -1,0 +1,13 @@
+.home-container{
+    padding: 20px;
+}
+
+.MuiGrid-container{
+    row-gap: 20px;
+}
+
+.MuiGrid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
